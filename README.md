@@ -15,3 +15,13 @@ POLICY_MANAGEMENT_CONTRACT_ADDRESS = "<Address to deployed PolicyManagement.sol>
 OBJECT_ATTRIBUTE_CONTRACT_ADDRESS = "<Address to deployed ObjectAttribute.sol>"
 ACCESS_CONTROL_CONTRACT_ADDRESS = "<Address to deployed AccessControl.sol>"
 ```
+
+compile smart contracts:
+```
+$ npx hardhat compile
+```
+
+deploy smart contracts:
+```
+$ npx hardhat run scripts/deploy.js --network <network name defined in hardhat.config.js>
+```
